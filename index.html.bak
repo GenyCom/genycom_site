@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO META ===== -->
+  <title>GenyCom – Logiciel de Gestion Commerciale et de Stock | Multi-sociétés</title>
+  <meta name="description" content="GenyCom est un logiciel de gestion commerciale et de suivi de stock multi-sociétés, multi-utilisateurs. Gérez achats, ventes, factures, devis, stocks et tableau de bord en temps réel." />
+  <meta name="keywords" content="logiciel gestion commerciale, gestion stock, facturation, devis, commandes fournisseurs, multi-sociétés, tableau de bord, suivi stock, créances, GenyCom, logiciel algérie" />
+  <meta name="author" content="GenyCom" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.genycom.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.genycom.com/" />
+  <meta property="og:title" content="GenyCom – Gestion Commerciale & Stock" />
+  <meta property="og:description" content="Logiciel multi-sociétés pour gérer achats, ventes, stock et tableau de bord en temps réel." />
+  <meta property="og:image" content="img/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GenyCom – Gestion Commerciale & Stock" />
+  <meta name="twitter:description" content="Logiciel multi-sociétés pour gérer vos achats, ventes, stock et tableau de bord en temps réel." />
+  <meta name="twitter:image" content="img/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "GenyCom",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Windows",
+    "description": "Logiciel de gestion commerciale et de suivi de stock multi-sociétés et multi-utilisateurs.",
+    "offers": { "@type": "Offer", "priceCurrency": "DZD" },
+    "featureList": "Gestion achats, Gestion ventes, Facturation, Suivi stock, Tableau de bord, Multi-sociétés, Devis, Créances",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "genycomc@gmail.com",
+      "availableLanguage": ["French", "Arabic"]
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" aria-label="GenyCom accueil">
+        <img src="img/logo.png" alt="GenyCom Logo" class="nav-logo-img" width="140" height="44" />
+      </a>
+      <nav class="nav-links" role="navigation" aria-label="Navigation principale">
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#modules">Modules</a>
+        <a href="#tableau-de-bord">Dashboard</a>
+        <a href="#avantages">Avantages</a>
+        <a href="#contact" class="nav-cta">
+          <i class="fas fa-rocket"></i> Demander une démo
+        </a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu mobile" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero" aria-label="Section principale">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <i class="fas fa-star"></i> Logiciel de gestion 100% professionnel
+      </div>
+      <h1 class="hero-title reveal reveal-delay-1">
+        Pilotez votre activité commerciale
+        <span class="hero-accent">avec intelligence</span>
+      </h1>
+      <p class="hero-subtitle reveal reveal-delay-2">
+        GenyCom est votre solution tout-en-un pour gérer vos transactions commerciales,
+        votre stock, vos clients et fournisseurs en temps réel, depuis une interface
+        claire et intuitive.
+      </p>
+      <div class="hero-actions reveal reveal-delay-3">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> Demander une démo gratuite
+        </a>
+        <a href="https://wa.me/212665680442?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20GenyCom."
+           class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contact WhatsApp">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+      <div class="hero-stats reveal reveal-delay-4">
+        <div class="stat">
+          <span class="stat-num" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Entreprises</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Modules intégrés</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="99">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Satisfaction client</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual reveal reveal-delay-2">
+      <div class="hero-img-wrap">
+        <img src="img/hero-screen.png"
+             alt="Interface principale du logiciel GenyCom - tableau de bord de gestion commerciale"
+             class="hero-screenshot"
+             width="620" height="400" />
+        <div class="hero-img-badge badge-top">
+          <i class="fas fa-check-circle"></i> Mise à jour en temps réel
+        </div>
+        <div class="hero-img-badge badge-bottom">
+          <i class="fas fa-shield-alt"></i> Données sécurisées par société
+        </div>
+      </div>
+    </div>
+    <a href="#fonctionnalites" class="hero-scroll-hint" aria-label="Défiler vers le bas">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar" aria-label="Secteurs d'activité">
+    <div class="container">
+      <p class="trust-label">Adapté à tous les secteurs d'activité</p>
+      <div class="trust-items">
+        <div class="trust-item"><i class="fas fa-store"></i> Commerce de détail</div>
+        <div class="trust-item"><i class="fas fa-industry"></i> Industrie</div>
+        <div class="trust-item"><i class="fas fa-truck"></i> Distribution</div>
+        <div class="trust-item"><i class="fas fa-hard-hat"></i> BTP & Services</div>
+        <div class="trust-item"><i class="fas fa-pills"></i> Pharmacies</div>
+        <div class="trust-item"><i class="fas fa-laptop"></i> IT & Tech</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FONCTIONNALITES ===== -->
+  <section class="features" id="fonctionnalites" aria-label="Fonctionnalités">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Fonctionnalités</span>
+        <h2>Tout ce dont votre entreprise a besoin</h2>
+        <p>Une suite complète d'outils pour automatiser et optimiser votre gestion commerciale au quotidien.</p>
+      </div>
+      <div class="features-grid">
+
+        <article class="feature-card reveal">
+          <div class="feature-icon icon-blue"><i class="fas fa-shopping-cart"></i></div>
+          <h3>Gestion des Achats</h3>
+          <p>Établissez vos commandes d'achat, gérez vos bons de réception et suivez l'état de chaque commande fournisseur en temps réel.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Commandes d'achat</li>
+            <li><i class="fas fa-check-circle"></i> Bons de réception</li>
+            <li><i class="fas fa-check-circle"></i> Suivi état commandes</li>
+          </ul>
+          <div class="feature-img-wrap">
+            <img src="img/dashboard-achats.png" alt="Module gestion des achats GenyCom" loading="lazy" />
+          </div>
+        </article>
+
+        <article class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon icon-green"><i class="fas fa-file-invoice-dollar"></i></div>
+          <h3>Gestion des Ventes</h3>
+          <p>Créez des devis professionnels, convertissez-les en factures, suivez les paiements et gérez les avoirs en cas de retour.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Devis & propositions</li>
+            <li><i class="fas fa-check-circle"></i> Facturation complète</li>
+            <li><i class="fas fa-check-circle"></i> Factures d'avoir</li>
+          </ul>
+          <div class="feature-img-wrap">
+            <img src="img/dashboard-ventes.png" alt="Module gestion des ventes GenyCom" loading="lazy" />
+          </div>
+        </article>
+
+        <article class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon icon-orange"><i class="fas fa-boxes"></i></div>
+          <h3>Suivi de Stock</h3>
+          <p>Visualisez en temps réel les niveaux de stock, les entrées et sorties de chaque article, avec alertes automatiques sur les quantités faibles.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Mouvements entrées/sorties</li>
+            <li><i class="fas fa-check-circle"></i> Alertes stock faible</li>
+            <li><i class="fas fa-check-circle"></i> Historique complet</li>
+          </ul>
+          <div class="feature-img-wrap">
+            <img src="img/dashboard-stock.png" alt="Module suivi de stock GenyCom" loading="lazy" />
+          </div>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon icon-purple"><i class="fas fa-users"></i></div>
+          <h3>Clients & Fournisseurs</h3>
+          <p>Centralisez toutes les informations de vos clients et fournisseurs, consultez leurs historiques et gérez les crédits et dettes facilement.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Fiches clients complètes</li>
+            <li><i class="fas fa-check-circle"></i> Suivi créances/dettes</li>
+            <li><i class="fas fa-check-circle"></i> Historique transactions</li>
+          </ul>
+        </article>
+
+        <article class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon icon-teal"><i class="fas fa-building"></i></div>
+          <h3>Multi-Sociétés</h3>
+          <p>Gérez plusieurs sociétés depuis une seule interface, avec une base de données séparée et un paramétrage personnalisé pour chaque entité.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Base dédiée par société</li>
+            <li><i class="fas fa-check-circle"></i> Paramétrage indépendant</li>
+            <li><i class="fas fa-check-circle"></i> Multi-utilisateurs</li>
+          </ul>
+        </article>
+
+        <article class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon icon-red"><i class="fas fa-sliders-h"></i></div>
+          <h3>Paramétrage Complet</h3>
+          <p>Personnalisez les états de commandes, taux de TVA, familles de produits et bien plus selon vos besoins métier spécifiques.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> États commandes/factures</li>
+            <li><i class="fas fa-check-circle"></i> Taux TVA configurables</li>
+            <li><i class="fas fa-check-circle"></i> Familles produits</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODULES TIMELINE ===== -->
+  <section class="modules" id="modules" aria-label="Modules">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Modules</span>
+        <h2>Une gestion commerciale de bout en bout</h2>
+        <p>Chaque module de GenyCom s'intègre parfaitement avec les autres pour un flux de travail sans rupture.</p>
+      </div>
+      <div class="modules-timeline">
+        <div class="module-step reveal">
+          <div class="step-connector"></div>
+          <div class="step-icon"><i class="fas fa-file-alt"></i></div>
+          <div class="step-content">
+            <h4>Devis</h4>
+            <p>Créez des devis détaillés avec TVA, remises et conditions de paiement personnalisées.</p>
+          </div>
+        </div>
+        <div class="module-step reveal reveal-delay-1">
+          <div class="step-connector"></div>
+          <div class="step-icon"><i class="fas fa-shopping-cart"></i></div>
+          <div class="step-content">
+            <h4>Commande</h4>
+            <p>Transformez un devis en commande d'un seul clic, avec suivi d'état automatisé.</p>
+          </div>
+        </div>
+        <div class="module-step reveal reveal-delay-2">
+          <div class="step-connector"></div>
+          <div class="step-icon"><i class="fas fa-truck"></i></div>
+          <div class="step-content">
+            <h4>Livraison</h4>
+            <p>Gérez les bons de réception / livraison et impactez automatiquement le stock.</p>
+          </div>
+        </div>
+        <div class="module-step reveal reveal-delay-3">
+          <div class="step-connector"></div>
+          <div class="step-icon"><i class="fas fa-file-invoice"></i></div>
+          <div class="step-content">
+            <h4>Facture</h4>
+            <p>Générez des factures professionnelles, suivez leur état de paiement et les encours clients.</p>
+          </div>
+        </div>
+        <div class="module-step reveal reveal-delay-4">
+          <div class="step-connector"></div>
+          <div class="step-icon"><i class="fas fa-undo"></i></div>
+          <div class="step-content">
+            <h4>Avoir</h4>
+            <p>Émettez des factures d'avoir en cas de retour marchandise ou d'annulation.</p>
+          </div>
+        </div>
+        <div class="module-step reveal reveal-delay-4">
+          <div class="step-icon"><i class="fas fa-warehouse"></i></div>
+          <div class="step-content">
+            <h4>Stock</h4>
+            <p>Chaque transaction impacte le stock automatiquement — zéro saisie manuelle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TABLEAU DE BORD ===== -->
+  <section class="dashboard-section" id="tableau-de-bord" aria-label="Tableau de bord">
+    <div class="container">
+      <div class="dashboard-layout">
+        <div class="dashboard-text reveal">
+          <span class="section-tag section-tag-light">Tableau de bord</span>
+          <h2>Une vue à 360° sur votre activité</h2>
+          <p>Le tableau de bord dynamique de GenyCom vous donne, en un seul écran, toutes les informations clés pour prendre les bonnes décisions au bon moment.</p>
+          <ul class="dashboard-list">
+            <li>
+              <div class="db-icon"><i class="fas fa-trophy"></i></div>
+              <div>
+                <strong>Top clients & fournisseurs</strong>
+                <span>Identifiez vos meilleurs partenaires en un coup d'œil</span>
+              </div>
+            </li>
+            <li>
+              <div class="db-icon"><i class="fas fa-fire"></i></div>
+              <div>
+                <strong>Produits les plus vendus</strong>
+                <span>Analysez vos bestsellers et ajustez votre stratégie</span>
+              </div>
+            </li>
+            <li>
+              <div class="db-icon"><i class="fas fa-exclamation-triangle"></i></div>
+              <div>
+                <strong>Alertes stock & factures impayées</strong>
+                <span>Ne manquez jamais un événement critique</span>
+              </div>
+            </li>
+            <li>
+              <div class="db-icon"><i class="fas fa-chart-line"></i></div>
+              <div>
+                <strong>Avancement du chiffre d'affaires</strong>
+                <span>Courbe mensuelle pour mesurer votre progression</span>
+              </div>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="margin-top:28px">
+            <i class="fas fa-eye"></i> Voir une démo complète
+          </a>
+        </div>
+        <div class="dashboard-preview reveal reveal-delay-2">
+          <img src="img/dashboard-main.png"
+               alt="Tableau de bord GenyCom - vue temps réel chiffre d'affaires et alertes"
+               class="db-screenshot"
+               loading="lazy"
+               width="600" height="380" />
+          <!-- Floating badges -->
+          <div class="db-float db-float-1">
+            <i class="fas fa-chart-line"></i>
+            <div><strong>+18%</strong><small>CA ce mois</small></div>
+          </div>
+          <div class="db-float db-float-2">
+            <i class="fas fa-bell"></i>
+            <div><strong>3 alertes</strong><small>À traiter</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVANTAGES ===== -->
+  <section class="advantages" id="avantages" aria-label="Avantages">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Pourquoi GenyCom ?</span>
+        <h2>Des avantages concrets pour votre entreprise</h2>
+      </div>
+      <div class="adv-grid">
+        <div class="adv-card reveal">
+          <div class="adv-number">01</div>
+          <i class="fas fa-bolt adv-icon"></i>
+          <h3>Rapide & Intuitif</h3>
+          <p>Interface conçue pour la productivité. Vos équipes maîtrisent le logiciel en quelques heures.</p>
+        </div>
+        <div class="adv-card reveal reveal-delay-1">
+          <div class="adv-number">02</div>
+          <i class="fas fa-lock adv-icon"></i>
+          <h3>Sécurisé & Fiable</h3>
+          <p>Données isolées par société, gestion fine des droits utilisateurs et traçabilité complète.</p>
+        </div>
+        <div class="adv-card reveal reveal-delay-2">
+          <div class="adv-number">03</div>
+          <i class="fas fa-expand-arrows-alt adv-icon"></i>
+          <h3>Évolutif & Flexible</h3>
+          <p>Paramétrez GenyCom selon votre secteur. Le logiciel grandit avec votre entreprise.</p>
+        </div>
+        <div class="adv-card reveal reveal-delay-3">
+          <div class="adv-number">04</div>
+          <i class="fas fa-headset adv-icon"></i>
+          <h3>Support dédié</h3>
+          <p>Une équipe disponible pour vous accompagner à l'installation, la configuration et au-delà.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" aria-label="Témoignages clients">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Témoignages</span>
+        <h2>Ce que disent nos clients</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"GenyCom a transformé notre gestion. Avant, on perdait des heures sur les rapports. Maintenant, tout est visible sur le tableau de bord en temps réel."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">KM</div>
+            <div>
+              <strong>Karim M.</strong>
+              <span>Gérant — Commerce de gros, Alger</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"La gestion multi-sociétés est parfaite pour nous. On gère 3 entités depuis une seule interface sans aucune confusion. Un gain de temps énorme."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SB</div>
+            <div>
+              <strong>Sarah B.</strong>
+              <span>Directrice financière — Groupe industriel</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"Les alertes sur les factures impayées et le stock faible nous ont évité plusieurs situations critiques. Un outil indispensable au quotidien."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AB</div>
+            <div>
+              <strong>Ahmed B.</strong>
+              <span>Responsable achat — Distribution pharmaceutique</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" aria-label="Questions fréquentes">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">FAQ</span>
+        <h2>Questions fréquentes</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>Combien d'utilisateurs peut-on connecter sur GenyCom ?</summary>
+          <p>GenyCom est multi-utilisateurs sans limite fixe. Le nombre de comptes est paramétrable selon vos besoins, avec des droits d'accès personnalisables par rôle et par module.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Peut-on gérer plusieurs sociétés avec des bases de données séparées ?</summary>
+          <p>Oui. GenyCom est conçu nativement pour le multi-sociétés. Chaque société dispose de sa propre base de données, garantissant une isolation totale des données et un paramétrage indépendant.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Comment fonctionne la mise à jour du stock en temps réel ?</summary>
+          <p>Chaque transaction (bon de réception, facture de vente, retour) impacte automatiquement le stock. Vous disposez d'un historique complet des mouvements par article avec entrées et sorties détaillées.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Le logiciel génère-t-il des documents imprimables ?</summary>
+          <p>Oui. GenyCom génère devis, bons de commande, bons de réception, factures et factures d'avoir en format imprimable, personnalisables avec votre logo et vos mentions légales.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>Est-il possible d'essayer GenyCom avant l'achat ?</summary>
+          <p>Absolument. Contactez-nous via le formulaire ci-dessous ou directement sur WhatsApp pour planifier une démonstration complète adaptée à votre secteur d'activité — sans engagement.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact" aria-label="Contact et demande de démo">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-text reveal">
+          <span class="section-tag">Contact</span>
+          <h2>Passez à l'action dès aujourd'hui</h2>
+          <p>Remplissez le formulaire et notre équipe vous contacte sous 24h pour organiser une démonstration personnalisée de GenyCom — gratuitement et sans engagement.</p>
+          <div class="contact-infos">
+            <div class="ci-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:genycomc@gmail.com">genycomc@gmail.com</a>
+            </div>
+            <div class="ci-item ci-whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/212665680442?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20GenyCom."
+                 target="_blank" rel="noopener noreferrer">
+                +212 665 680 442 (WhatsApp)
+              </a>
+            </div>
+            <div class="ci-item">
+              <i class="fas fa-clock"></i>
+              <span>Réponse sous 24h ouvrables</span>
+            </div>
+            <div class="ci-item">
+              <i class="fas fa-shield-alt"></i>
+              <span>Démo gratuite & sans engagement</span>
+            </div>
+          </div>
+          <!-- WhatsApp CTA block -->
+          <a href="https://wa.me/212665680442?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20GenyCom."
+             class="wa-block" target="_blank" rel="noopener noreferrer" aria-label="Contacter GenyCom sur WhatsApp">
+            <div class="wa-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <strong>Chattez avec nous sur WhatsApp</strong>
+              <span>Réponse rapide · +212 665 680 442</span>
+            </div>
+            <i class="fas fa-arrow-right wa-arrow"></i>
+          </a>
+        </div>
+
+        <div class="contact-form-wrap reveal reveal-delay-1">
+          <!-- EmailJS form — instructions dans README.md -->
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nom">Nom complet <span aria-hidden="true">*</span></label>
+                <input type="text" id="nom" name="from_name" placeholder="Votre nom" required autocomplete="name" />
+                <span class="form-error" id="nomError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="societe">Société</label>
+                <input type="text" id="societe" name="company" placeholder="Nom de votre société" autocomplete="organization" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="reply_to" placeholder="votre@email.com" required autocomplete="email" />
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="phone" placeholder="+212 xx xx xx xx" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="secteur">Secteur d'activité</label>
+              <select id="secteur" name="sector">
+                <option value="">Sélectionnez votre secteur</option>
+                <option>Commerce de détail / gros</option>
+                <option>Distribution</option>
+                <option>Industrie & production</option>
+                <option>BTP & services</option>
+                <option>Pharmacie & médical</option>
+                <option>Informatique & technologie</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="4" placeholder="Décrivez vos besoins ou posez vos questions..." required></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <i class="fas fa-paper-plane"></i> Envoyer ma demande
+            </button>
+            <div class="form-notice" id="formNotice" role="status" aria-live="polite"></div>
+            <p class="form-footer-note">
+              <i class="fab fa-whatsapp" style="color:#25D366"></i>
+              Vous préférez WhatsApp ?
+              <a href="https://wa.me/212665680442?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20GenyCom."
+                 target="_blank" rel="noopener noreferrer">Cliquez ici</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="img/logo-white.png" alt="GenyCom" class="footer-logo" width="140" height="44" />
+          <p>Logiciel de gestion commerciale et de stock multi-sociétés, conçu pour les entreprises algériennes et africaines.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook GenyCom"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="LinkedIn GenyCom"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/212665680442" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp GenyCom">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#tableau-de-bord">Tableau de bord</a></li>
+            <li><a href="#avantages">Avantages</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Fonctionnalités</h4>
+          <ul>
+            <li><a href="#fonctionnalites">Gestion des achats</a></li>
+            <li><a href="#fonctionnalites">Gestion des ventes</a></li>
+            <li><a href="#fonctionnalites">Suivi de stock</a></li>
+            <li><a href="#fonctionnalites">Facturation & avoirs</a></li>
+            <li><a href="#fonctionnalites">Multi-sociétés</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:genycomc@gmail.com">genycomc@gmail.com</a></p>
+          <p>
+            <i class="fab fa-whatsapp" style="color:#25D366"></i>
+            <a href="https://wa.me/212665680442" target="_blank" rel="noopener noreferrer">+212 665 680 442</a>
+          </p>
+          <p><i class="fas fa-map-marker-alt"></i> Maroc</p>
+          <a href="#contact" class="btn btn-ghost btn-sm" style="margin-top:12px">Demander une démo</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> GenyCom — Tous droits réservés.</p>
+        <p>Logiciel de gestion commerciale &amp; stock · Professionnel</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a href="https://wa.me/212665680442?text=Bonjour%2C%20je%20souhaite%20une%20d%C3%A9monstration%20de%20GenyCom."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contacter GenyCom sur WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chattez sur WhatsApp</span>
+  </a>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-top" id="backTop" aria-label="Retour en haut">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
