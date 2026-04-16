@@ -17,9 +17,9 @@
 // ============================================================
 //  ★  PARAMÈTRES EMAILJS  ← À REMPLIR
 // ============================================================
-const EMAILJS_PUBLIC_KEY  = 'VOTRE_PUBLIC_KEY';   // onglet Account > API Keys
-const EMAILJS_SERVICE_ID  = 'VOTRE_SERVICE_ID';   // onglet Email Services
-const EMAILJS_TEMPLATE_ID = 'VOTRE_TEMPLATE_ID';  // onglet Email Templates
+const EMAILJS_PUBLIC_KEY  = 'UW7uBS5Utky4qcPDv';   // onglet Account > API Keys
+const EMAILJS_SERVICE_ID  = 'service_u1zuo1a';   // onglet Email Services
+const EMAILJS_TEMPLATE_ID = 'template_feyjy9y';  // onglet Email Templates
 
 // ============================================================
 //  INITIALISATION EMAILJS
