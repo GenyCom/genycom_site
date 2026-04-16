@@ -139,7 +139,11 @@ if (yr) yr.textContent = new Date().getFullYear();
 // ============================================================
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
-    const t = document.querySelector(a.getAttribute('href'));
+    let t = document.querySelector(a.getAttribute('href'));
+    if (a.getAttribute('href') === '#contact' && window.innerWidth <= 768) {
+      const formWrap = document.querySelector('.contact-form-wrap');
+      if (formWrap) t = formWrap;
+    }
     if (t) { e.preventDefault(); window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 78, behavior: 'smooth' }); }
   });
 });
@@ -273,7 +277,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 // ============================================================
 const s = document.createElement('style');
 s.textContent = `
-  .nav-links a.active-link { color: var(--primary) !important; }
+  .nav-links a.active-link:not(.nav-cta) { color: var(--primary) !important; }
   .nav-toggle.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
   .nav-toggle.active span:nth-child(2) { opacity: 0; transform: scaleX(0); }
   .nav-toggle.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
