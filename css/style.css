@@ -146,7 +146,13 @@ input, textarea, select { font-family: var(--font-body); }
   margin: 0 auto;
   line-height: 1.7;
 }
-
+.trust-label p {
+  font-size: 1.05rem;
+  color: #6c757d;
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
 /* ============================================
    NAVBAR
    ============================================ */
@@ -171,8 +177,9 @@ input, textarea, select { font-family: var(--font-body); }
   align-items: center;
   justify-content: space-between;
 }
-.nav-logo { display: flex; align-items: center; }
+.nav-logo { display: flex; align-items: center; gap: 10px; }
 .nav-logo-img { height: 40px; width: auto; object-fit: contain; }
+.nav-logo .trust-label { color: var(--muted); }
 .nav-links {
   display: flex;
   align-items: center;
@@ -374,7 +381,7 @@ input, textarea, select { font-family: var(--font-body); }
   flex-wrap: wrap;
 }
 .trust-label {
-  font-size: .78rem;
+  font-size: .58rem;
   color: rgba(255,255,255,.4);
   text-transform: uppercase;
   letter-spacing: .08em;
